@@ -39,5 +39,9 @@ Here option1/2/3/4 refer to folders for different read orientation options. The 
 
 ## Processing
 Now we are ready to begin processing. Refer to ```fgbio_hpv.sh``` script for code. 
+
 Optional if you are running on 02: You can setup a conda env and install necessary libs by executing Step 0.
+
 For running QC and spectra plotting scripts, navigate to dir: ```/n/data1/hms/dbmi/gulhan/lab/ankit/scripts/qc_scripts``` & ```/n/data1/hms/dbmi/gulhan/lab/ankit/scripts/motif_spectra_scripts``` respectively.
+
+**NOTE**: When performing QC filtering for human, hpv and chimeric BAMs (after extracting reads), de-activate the length filter for chimeric BAMs.
