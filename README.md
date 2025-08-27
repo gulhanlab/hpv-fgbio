@@ -40,6 +40,8 @@ Here option1/2/3/4 refer to folders for different read orientation options. The 
 ## Processing
 Now we are ready to begin processing. Refer to ```fgbio_hpv.sh``` script for code. 
 
+For specifying specific samples to be processed using .csv file, refer to the ```tumor_normal_fgbio.csv``` for an example format. 
+
 Optional if you are running on 02: You can setup a conda env and install necessary libs by executing Step 0.
 
 For running QC and spectra plotting scripts, navigate to dir: ```/n/data1/hms/dbmi/gulhan/lab/ankit/scripts/qc_scripts``` & ```/n/data1/hms/dbmi/gulhan/lab/ankit/scripts/motif_spectra_scripts``` respectively.
