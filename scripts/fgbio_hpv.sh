@@ -63,7 +63,7 @@ case $step in
   0)
     # ** Step 0: Set up Conda environment **
     echo "Set up conda env (only need to do it once). If already set up, use it."
-    echo "conda env create -f /n/data1/hms/dbmi/gulhan/lab/ankit/scripts/mutation_calling/fgbio/general3.yml"
+    echo "conda env create -f /n/data1/hms/dbmi/gulhan/lab/ankit/scripts/fgbio/general3.yml"
     echo "To activate the environment:"
     echo "conda activate general3; module load gcc java/jdk-1.8u112 python/3.6.0 samtools htslib bcftools bwa"
   ;;
